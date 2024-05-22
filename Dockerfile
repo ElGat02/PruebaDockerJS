@@ -23,6 +23,7 @@ RUN npm install -g @angular/cli
 COPY Frontend/package*.json ./
 
 # Instalar las dependencias del frontend
+
 RUN npm install
 
 # Copiar los archivos restantes del proyecto Frontend
@@ -30,6 +31,7 @@ RUN npm install
 COPY Frontend/ .
 
 # Construir la aplicacion Angular para producción
+
 RUN ng build --configuration production
 
 # Cambiar de nuevo al directorio del backend para la ejecución
