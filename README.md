@@ -7,7 +7,7 @@ Para construir la imagen de Docker para esta aplicación, navegue al directorio 
 ```bash 
 docker build -t nombre-de-tu-imagen .
 ```
-![Texto alternativo](img/build.jpg)
+
 
 Reemplace nombre-de-tu-imagen con el nombre que desea asignar a la imagen de Docker.
 
@@ -25,7 +25,3 @@ Cómo acceder y probar la funcionalidad:
 
 Para acceder a la interfaz de la aplicación, abra un navegador web y visite http://localhost:80.
 
-Funcionamiento
-![Texto alternativo](img/imagen.png)
-![Texto alternativo](img/Contenedor.png)
-![Texto alternativo](img/aplicacion.png)
